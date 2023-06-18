@@ -1,5 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/b6b09ef856.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shyngys.css">
+
+    <title>China Machine</title>
+  </head>
+
+  <body>
+
+    <!-- ========================================>> header <<======================================== -->
+
+    <header>
+      <a id="arch--logo" href="#arch--first-content">Hollowfiber_kz</a>
+
+      <nav>
+        <a href="#arch--first-content">Home</a>
+        <a href="#p1">Collection</a>
+        <a href="#s_page-space">Space</a>
+        <a href="#p3">Why Us?</a>
+        <a href="#s_page-works">How It Works</a>
+        <a href="#footer">Contact</a>
+      </nav>
+
+      <div id="arch--burger">
+        <i class="fa-solid fa-bars fa-2xl" style="color: #054c73;" onclick="displayWindow()"></i>
+        <div id="arch--burger-content">
+          <div>
+            <a href="#arch--first-content" onclick="closeWindow()">Home</a>
+          </div>
+          <div>
+            <a href="#p1" onclick="closeWindow()">Collection</a>
+          </div>
+          <div>
+            <a href="#s_page-space" onclick="closeWindow()">Space</a>
+          </div>
+          <div>
+            <a href="#p3" onclick="closeWindow()">Why Us?</a>
+          </div>
+          <div>
+            <a href="#s_page-works" onclick="closeWindow()">How It Works</a>
+          </div>
+          <div>
+            <a href="#arch--contact" onclick="closeWindow()">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- ========================================>> first-content <<======================================== -->
+
+
+    <section id="arch--first-content">
+      <img src="initial.png" alt="">
+
+      <div id="arch--first-content-block">
+        <div class="arch--first-content-block-title">
+          <p>New Arrival</p>
+          <h1>HollowFiber</h1>
+        </div>
+        <div class="arch--first-content-block-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+          <button>buy now</button>
+        </div>
+      </div>
+
+      <div id="arch--first-content-footer">
+        <div>
+          <img class="arch--first-content__icons" src="truk-icon.png" alt="">
+          <div>
+            <p class="arch--first-content-footer-title">Free Delivery</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div>
+          <img class="arch--first-content__icons" src="time-icon.png" alt="">
+          <div>
+            <p class="arch--first-content-footer-title">Support 24/7</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div>
+          <img class="arch--first-content__icons" src="shield-icon.png" alt="">
+          <div>
+            <p class="arch--first-content-footer-title">100% Authentic</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="p1" style="height: 100vh; display: flex; justify-content: center; align-items: center;">
+      <div>
+        <h1>PAGE 1</h1>
+      </div>
+    </section>
+    
+
+    <!-- ========================================>> shyngys <<======================================== -->
+
+
+    <div id="s_page-space" class="s_third">
+      <div class="s_third_f">
+        <p><b> Beautify Your Space</b></p>
+        <p>Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris.</p>
+        <button class="s_button">About Us</button>
+      </div>
+      <div class="s_third_s">
+        <img id="s_image"
+          src="https://avatars.mds.yandex.net/i?id=f8198ea325ce120bacc7a643bedaae60dd53084c-8981113-images-thumbs&n=13"
+          alt="">
+      </div>
+    </div>
+
+
+    <!-- ========================================>> + <<======================================== -->
+
+
+    <section id="p3" style="height: 100vh; display: flex; justify-content: center; align-items: center;">
+      <div>
+        <h1>PAGE 3</h1>
+      </div>
+    </section>
+
+
+    <!-- ========================================>> shyngys <<======================================== -->
+
+
+    <section id="s_page-works" class="s_works">
+      <div class="s_works_1">
+        <p>How it works</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="s_cards">
+        <div class="card">
+          <figure>
+            <img src="hol.jpg" alt="Mountains">
+            <figcaption>Холлофайбер</figcaption>
+          </figure>
+          <div class="card-body">
+            <h5 class="card-title">Алполюкс</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <button class="svyaz_button">Связаться</button>
+          </div>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="hol.jpg" alt="Mountains">
+            <figcaption>Алполюкс</figcaption>
+          </figure>
+          <div class="card-body">
+            <h5 class="card-title">Алполюкс</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <button class="svyaz_button">Связаться</button>
+          </div>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="hol.jpg" alt="Mountains">
+            <figcaption>Алполюкс</figcaption>
+          </figure>
+          <div class="card-body">
+            <h5 class="card-title">Алполюкс</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <button class="svyaz_button">Связаться</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========================================>> footer <<======================================== -->
+
+
+    <section id="arch--contact">
+      <div id="arch--contact-content">
+        <p class="arch--contact-content-title">Join Our Mailing List</p>
+        <p class="arch--contact-content-text">Sign up to receive inspiration, product updates, and special offers from our
+          team.</p>
+        <div>
+          <input type="email" placeholder="example@gmail.com">
+          <button>Submit</button>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <div id="arch--footer-content">
+          <p class="arch--footer-content-text">About Project</p>
+          <p class="arch--footer-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit excepturi
+            sapiente
+            eligendi repudiandae libero hic. Reprehenderit, explicabo aspernatur. Asperiores sit dolor sed ab explicabo,
+            fuga numquam
+            excepturi voluptates consectetur illo quo dolore sint provident maxime quas libero reprehenderit nulla atque?
+          </p>
+          <p class="arch--footer-content-text">Follow Us</p>
+          <div class="arch--footer-content-icons">
+            <i class="arch-icons fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i>
+            <i class="arch-icons fa-brands fa-telegram fa-2xl" style="color: #ffffff;"></i>
+            <i class="arch-icons fa-brands fa-github fa-2xl" style="color: #ffffff;"></i>
+            <i class="arch-icons fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+            <i class="arch-icons fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i>
+            <i class="arch-icons fa-solid fa-envelope fa-2xl" style="color: #ffffff;"></i>
+          </div>
+        </div>
+        <div id="arch--footer-overview">
+          <p class="arch--footer-content-text">Our Posts</p>
+          <div id="arch--footer-overview-content">
+            <div>
+              <img
+                src="https://media.npr.org/assets/img/2022/08/21/moon1_sq-3e2ed2ced72ec3254ca022691e4d7ed0ac9f3a14-s1100-c50.jpg"
+                alt="">
+            </div>
+            <div>
+              <img src="https://mymodernmet.com/wp/wp-content/uploads/2020/09/andrew-mccarthy-high-definition-moon-2.jpg"
+                alt="">
+            </div>
+            <div>
+              <img src="https://www.thisiscolossal.com/wp-content/uploads/2019/02/moon_crop.jpg" alt="">
+            </div>
+            <div>
+              <img src="https://pbs.twimg.com/media/E2GQqpzVkAENtLl?format=jpg&name=4096x4096" alt="">
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script src="javascript.js"></script>
+
+  </body>
+
+</html>
+
+
+
+
+<!--      Shyngys's code
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -67,4 +328,5 @@
     
 </body>
 <script src="index.js"></script>
-</html>
+</html> 
+-->
