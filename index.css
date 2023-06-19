@@ -17,12 +17,15 @@
     margin: 0 auto;
     /* background-color: aliceblue; */
     align-items: center;
+
 }
 
 .s_third_f :nth-child(2){
     color: #666666;
     font-size: 26px;
     width: 60%;
+    line-height: 30px;
+    margin-bottom: 20px;
 
 }
 
@@ -36,6 +39,8 @@
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+
 }
 
 .s_third_s #s_image{
@@ -112,7 +117,6 @@
 .s_works{
     width: 100%;
     /* background-color: #92bad0; */
-    height: 847px;
 }
 
 .s_works_1 :nth-child(1){
@@ -147,9 +151,6 @@
 .card{
     text-align: center;
     width: 30%;
-    height: 100px;
-    background-color: #666666;
-    height: 300px;
 }
 
 .card img{
@@ -196,7 +197,6 @@
     .card{
         width: 200px;
         margin: 0 auto;
-        height: 100px;
         margin-top: 10%;
     }
     .svyaz_button{
