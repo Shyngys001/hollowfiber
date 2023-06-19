@@ -295,6 +295,11 @@ footer {
 }
 
 @media screen and (max-width: 820px) {
+  h1 {
+    font-size: 40px;
+    font-weight: 800;
+  }
+  
   nav {
     display: none;
   }
