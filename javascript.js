@@ -29,3 +29,10 @@ s_image.addEventListener('mouseout', () => {
     water.classList.remove('rotate');
     water.style.visibility = "hidden";
 });
+
+
+// monti
+
+$('input').on('change', function() {
+  $('body').toggleClass('blue');
+});
