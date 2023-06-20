@@ -26,25 +26,27 @@
     width: 60%;
     line-height: 30px;
     margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .s_third_f :nth-child(1){
-    font-family: Montserrat;
     font-size: 55px;
     font-weight: 700;
     line-height: 39px;
     letter-spacing: 0px;
     text-align: left;
     font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Slab', serif;
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 
 }
 
 .s_third_s #s_image{
-    width: 100%;
+    width: 90%;
     border-radius: 50%;
 }
 
@@ -74,9 +76,14 @@
     border-radius: 25px;
     background-color: #054C73;
     color: aliceblue;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+
 }
 
 .svyaz_button{
+    margin-top: 15px;
     border-radius: 25px;
     width: 140px;
     height: 50px;
@@ -84,9 +91,13 @@
     font-family: 'Crimson Pro';
     background-color: #054C73;
     color: aliceblue;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
 }
 
-.svyaz_button:hover{
+.svyaz_button:hover, .s_button:hover{
     background-color: #b7adad;
     transition: transform 0.7s ease;
     transform: scale(1.1);
@@ -170,8 +181,9 @@
     }
     
     .s_third_f :nth-child(1){
-        font-size: 5vw;
+        font-size: 35px;
         width: 100%;
+        margin-bottom: 0;
     }
 
     .s_third{
@@ -184,12 +196,15 @@
     }
     .s_third_f :nth-child(2){
         width: 100%;
+        font-size: 15px;
+
     }
 
     .s_button{
-        width: 70px;
+        width: 90px;
         height: 40px;
         font-size: 10px;
+        margin: 0 auto;
     }
     .s_cards{
         margin-top: 5%;
@@ -202,6 +217,7 @@
     .svyaz_button{
         width: 100px;
         height: 40px;
+        font-size: 12px;
     }
 
     .s_third_s img{
@@ -223,7 +239,7 @@ figure {
     display: grid;
     align-items: end;
     font-family: sans-serif;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     padding: .75rem;
     background: var(--c,rgba(0, 0, 0, 0.592));
