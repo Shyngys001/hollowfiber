@@ -16,9 +16,10 @@
   align-items: center;
   justify-content: center;
   padding: 30px 10px;
+  height: 80vh;
+  z-index: 212;
   font-family: 'DM Sans', sans-serif;
   transition: background .4s ease-in;
-  
   background: linear-gradient(to top,#054C73, #DFE9F4);
 }
 
@@ -43,7 +44,7 @@ input[type=radio] {
 
 .container {
   width: 100%;
-  max-width: 900px;
+  max-width: 60%;
   max-height: 600px;
   height: 100%;
   transform-style: preserve-3d;
@@ -51,6 +52,23 @@ input[type=radio] {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+  max-width: 80%;
+  height: 400px;
+  }
+  .m-main{
+    height: 500px;
+  }
+  .m-main-text{
+    /* width: 300px; */
+    font-size: 14px;
+    min-height: 100px;
+    overflow: hidden;
+    
+  }
 }
 
 .cards {
@@ -196,3 +214,4 @@ input[type=radio] {
   font-weight: 700;
   margin: 20px auto;
 }
+
