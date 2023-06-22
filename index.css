@@ -8,15 +8,13 @@
     gap: 50px;
     height: 847px;
     margin: 0 auto;
-    background: linear-gradient(to top, #DFE9F4 );
-
 }
 
 .s_third_f{
     width: 50%;
     height: 400px;
     margin: 0 auto;
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     align-items: center;
 
 }

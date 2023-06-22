@@ -232,14 +232,22 @@ nav a:hover {
 }
 
 footer {
-  min-height: 280px;
   background-color: var(--content-color);
   display: flex;
   padding: 2% 5%;
 }
 
 #arch--footer-content {
-  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arch--footer-content-about {
+  width: 70%;
+}
+
+.arch--footer-content-follow {
+  width: 200px;
 }
 
 .arch--footer-content-text {
@@ -254,6 +262,15 @@ footer {
   font-weight: 400;
   color: var(--white);
   margin: 20px 0;
+}
+
+.arch--footer-content-icons{
+  display: flex;
+  flex-direction: column;
+}
+
+.arch--footer-content-icons:nth-child(n) {
+  display: flex;
 }
 
 .arch-icons {
@@ -344,5 +361,28 @@ footer {
   #arch--contact-content div {
     width: 80%;
     text-align: center;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  #arch--footer-content {
+    width: 80%;
+  }
+
+  .arch--footer-content-follow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .arch--footer-content-icons {
+    width: 50%;
+  }
+
+  .arch--footer-content-about {
+    display: none; 
   }
 }
