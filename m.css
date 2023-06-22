@@ -57,6 +57,10 @@ input[type=radio] {
 @media screen and (max-width: 768px) {
   .container{
   max-width: 80%;
+  height: 400px;
+  }
+  .m-main{
+    height: 500px;
   }
   .m-main-text{
     /* width: 300px; */
