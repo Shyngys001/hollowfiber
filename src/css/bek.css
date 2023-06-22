@@ -1,0 +1,116 @@
+.page-3 {
+    height: 70%;
+    width: 80%;
+    text-align: center;
+}
+
+.page-3-double {
+    padding: 30px 0;
+    display: flex;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    height: 100%;
+}
+
+.page-3-first-side {
+    text-align: justify;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 3%;
+    border-right: 1px solid lightgray;
+}
+
+.page-3-first-side img {
+    align-self: center;
+    width: 100%;
+    aspect-ratio: 2/1;
+    margin: 3% 0;
+    object-fit: cover;
+}
+
+.page-3-second-side {
+    text-align: justify;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 3%;
+    gap: 10px;
+}
+
+.page-3-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 5%;
+    margin: 10px 0;
+}
+
+.page-3-card img {
+    align-self: center;
+    background-color: chocolate;
+    object-fit: cover;
+    min-width: 200px;
+    max-width: 200px; 
+    aspect-ratio: 3/2;
+}
+
+.page-3-card-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-3-card-info {
+    display: flex;
+}
+
+.page-3-card-info :first-child {
+    padding-right: 3%;
+    border-right: 1px solid lightgray;
+}
+
+.page-3-card-info :last-child {
+    padding-left: 3%;
+}
+
+@media screen and (max-width: 1300px) {
+    .page-3-double {
+        flex-direction: column;
+    }    
+
+    .page-3-first-side {
+        width: 100%;
+        padding-right: 0;
+        border-right: none;
+        padding-bottom: 50px;
+        border-bottom: 1px solid lightgray;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .page-3-second-side {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 50px;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .page-3-card {
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        border: 1px solid lightgray;
+        padding: 3%;
+    }
+
+    .page-3-card img {
+        min-width: 100%;
+        max-width: 100%; 
+    }
+
+    .page-3-card-text {
+        gap: 20px;
+    }
+}
