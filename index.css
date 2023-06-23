@@ -20,6 +20,8 @@
     position: relative;
 }
 
+
+
 li{
     color: #392e2e;
     font-size: 18px;
@@ -98,6 +100,12 @@ li::marker{
 
 }
 
+.card-title{
+    font-size: 25px;
+    color: #00114d;
+    font-weight: 700;
+}
+
 
 .svyaz_button{
     border-radius: 25px;
@@ -108,7 +116,7 @@ li::marker{
     background-color: #054C73;
     color: aliceblue;
     border: none;
-
+    margin-top: 20px;
 }
 
 .svyaz_button:hover{
@@ -175,7 +183,8 @@ li::marker{
 
 .card{
     text-align: center;
-    width: 30%;
+    width: 35%;
+    margin-bottom: 40px;
 }
 
 .card img{
@@ -288,8 +297,9 @@ figure {
       linear-gradient(#c60e0e 0 0);
     -webkit-mask-clip: text, padding-box;
     margin: -1px;
-    color: #ffc916;
-  }
+    color: #ffffff;
+    text-transform: uppercase;
+}
   figure:hover figcaption{
     --_i: 0%;
   }
@@ -299,6 +309,7 @@ figure {
 
   figure img{
     width: 80%;
+    height: 450px;
   }
 
 
