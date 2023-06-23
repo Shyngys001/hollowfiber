@@ -139,6 +139,11 @@ nav a:hover {
   color: var(--white);
   text-transform: uppercase;
   margin-top: 20px;
+  transition: 0.5s;
+}
+
+#arch--first-content-block button:hover {
+  transform: scale(1.05);
 }
 
 #arch--first-content-footer {
