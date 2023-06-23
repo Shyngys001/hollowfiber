@@ -6,7 +6,6 @@
     position: relative;
     justify-content: space-around;
     height: 847px;
-   //background-color: rgb(229, 229, 229);
 }
 
 .s_third_f{
@@ -84,11 +83,11 @@ li::marker{
     border: none;
     margin: 0 auto;
     margin-top: 40px;
+    transition: 0.5s;
 }
 
 .s_button:hover{
     background-color: #00114d;
-    transition: transform 0.7s ease;
     transform: scale(1.1);
 
 }
@@ -98,17 +97,15 @@ li::marker{
     border-radius: 25px;
     width: 140px;
     height: 50px;
-    /* background: rgb(47,21,252); */
     font-family: 'Crimson Pro';
     background-color: #054C73;
     color: aliceblue;
     border: none;
-
+    transition: 0.5s;
 }
 
 .svyaz_button:hover{
     background-color: #00114d;
-    transition: transform 0.7s ease;
     transform: scale(1.1);
 }
 
@@ -230,8 +227,6 @@ li::marker{
     }
     .s_third_s #s_image{
         width: 100%;
-    }
-    .s_third_s{
     }
     
 }
