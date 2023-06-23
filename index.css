@@ -91,13 +91,13 @@ li::marker{
     border: none;
     margin: 0 auto;
     margin-top: 40px;
+    transition: transform 0.7s ease;
 }
 
 .s_button:hover{
     background-color: #00114d;
     transition: transform 0.7s ease;
     transform: scale(1.1);
-
 }
 
 .card-title{
@@ -117,6 +117,7 @@ li::marker{
     color: aliceblue;
     border: none;
     margin-top: 20px;
+    transition: transform 0.7s ease;
 }
 
 .svyaz_button:hover{
