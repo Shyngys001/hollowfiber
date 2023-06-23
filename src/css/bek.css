@@ -74,6 +74,14 @@
     padding-left: 3%;
 }
 
+.arrow-hoveer-right .arrow-move-right {
+    transition: 0.5s;
+}
+
+.arrow-hoveer-right:hover .arrow-move-right {
+    margin-left: 15px;
+}
+
 @media screen and (max-width: 1300px) {
     .page-3-double {
         flex-direction: column;
