@@ -288,7 +288,7 @@ figure {
       linear-gradient(#c60e0e 0 0);
     -webkit-mask-clip: text, padding-box;
     margin: -1px;
-    color: rgb(181, 152, 255);
+    color: #013551;
   }
   figure:hover figcaption{
     --_i: 0%;
