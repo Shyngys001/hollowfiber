@@ -45,6 +45,7 @@ li::marker{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Slab', serif;
     text-align: center;
+    color: #013551;
 }
 
 .s_third_f :nth-child(2){
