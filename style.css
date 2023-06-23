@@ -72,6 +72,7 @@ nav {
   display: flex;
   margin-left: auto;
   justify-content: space-between;
+  gap: 20px;
 }
 
 nav a:hover {
@@ -252,7 +253,7 @@ footer {
 }
 
 .arch--footer-content-follow {
-  width: 200px;
+  width: 220px;
 }
 
 .arch--footer-content-text {
@@ -269,7 +270,7 @@ footer {
   margin: 20px 0;
 }
 
-.arch--footer-content-icons{
+.arch--footer-content-icons {
   display: flex;
   flex-direction: column;
 }
@@ -389,5 +390,11 @@ footer {
 
   .arch--footer-content-about {
     display: none; 
+  }
+  
+  .arch--footer-content-follow {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 }
