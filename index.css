@@ -29,14 +29,16 @@ li{
     margin: 0 auto;
     text-align: left;
     line-height: 29px;
+    margin-bottom: 2%;
+    
 }
 
 li::marker{
-    content: "▐";
+    content: "▐    ";
     color: #054C73;
 }
 
-.s_third_f :nth-child(1){
+.s_third_f :nth-child(1) {
     margin: 0 auto;
     font-family: Montserrat;
     font-size: 40px;
@@ -56,9 +58,7 @@ li::marker{
 
 .s_third_s #s_image{
     width: 400px;
-    border-radius: 50%;
 }
-
 
 
 #s_water{
@@ -93,6 +93,7 @@ li::marker{
     margin-top: 40px;
     transition: transform 0.7s ease;
 }
+
 
 .s_button:hover{
     background-color: #00114d;
@@ -202,6 +203,11 @@ li::marker{
 
 
 @media(max-width: 800px){  
+    li{
+        font-size: 10px;
+        line-height: 15px;
+    }
+
     .s_third_f :nth-child(1){
         font-size: 30px;
         line-height: 25px;
