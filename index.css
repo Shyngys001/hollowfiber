@@ -204,7 +204,7 @@ li::marker{
 
 @media(max-width: 800px){  
     li{
-        font-size: 20px;
+        font-size: 25px;
         line-height: 15px;
     }
 
