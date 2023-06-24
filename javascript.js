@@ -42,14 +42,14 @@ var button3 = document.getElementById("song-3");
 var text = document.getElementById("m-main-text-p");
 
 button1.addEventListener("click", function() {
-  text.textContent = "As the hikers trekked through the dense forest, a symphony of chirping birds and rustling leaves accompanied their every step, creating a harmonious melody of nature. The scent of damp earth filled the air, mingling with the sweet fragrance of wildflower";
+  text.textContent = "Холлофайбер - инновационный материал, используемый в различных областях. Он широко применяется в текстильной промышленности для создания мягкой и удобной мебели, постельных принадлежностей и одежды. ";
   console.log('first change');
 });
 button2.addEventListener("click", function() {
-  text.textContent = "Old bookstore was a treasure trove of literary wonders, its shelves lined with weathered books that whispered stories of bygone eras. The scent of aged pages filled the air, enticing visitors to explore the endless worlds contained within those time-worn covers.";
+  text.textContent = "Синтепон - популярный материал, широко используемый в разных областях. Он часто применяется в текстильной и мебельной промышленности для создания мягких изделий, таких как подушки, одеяла и матрасы.";
   console.log('second change');
 });
 button3.addEventListener("click", function() {
-  text.textContent = "Crisp autumn breeze danced through the colorful foliage, painting the landscape in hues of gold, crimson, and amber. The sound of crunching leaves underfoot added a rhythmic melody to the serene atmosphere, as nature embraced the changing season with a graceful flourish.";
+  text.textContent = "Альполюкс - инновационный материал, широко применяемый в различных отраслях. Он известен своей высокой прочностью и устойчивостью к воздействию влаги, что делает его идеальным выбором для наружных конструкций, таких как крыши и фасады зданий.";
   console.log('thrdh change');
 });
