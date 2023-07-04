@@ -7,7 +7,21 @@
     height: 847px;
     background-color: rgb(229, 229, 229);
 }
+.owner{
+    font-size: 50px;
+    color: rgb(168, 168, 168); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 15px;
+}
 
+.own{
+    color: rgb(168, 168, 168); 
+
+}
+
+.own:hover{
+    color: antiquewhite;
+}
 .s_third_f{
     width: 50%;
     height: 400px;
